@@ -1,0 +1,510 @@
+{
+  "classes": [
+    "ORG",
+    "PEOPLE",
+    "MONEY",
+    "STOCK",
+    "PERCENTAGE",
+    "DATE",
+    "COUNTRY",
+    "FINANCIAL ENTITIES",
+    "CONTINENT",
+    "NATURAL NUMBERS",
+    "EVENT",
+    "PRODUCT",
+    "TIME"
+  ],
+  "annotations": [
+    [
+      "Bitcoin’s price surged by 18% in the past week, breaking the $45,000 mark after news that Tesla Inc. (TSLA) has begun accepting cryptocurrency for vehicle purchases. The announcement sent shockwaves through the market, with other major companies like Square Inc. (SQ) and PayPal (PYPL) also signaling interest in integrating Bitcoin payments. Analysts predict that Bitcoin could rise another 10% by the end of Q4 2025 if institutional adoption continues to increase.\r",
+      {
+        "entities": [
+          [0, 9, "FINANCIAL ENTITIES"],
+          [26, 29, "PERCENTAGE"],
+          [61, 68, "MONEY"],
+          [90, 107, "ORG"],
+          [128, 142, "FINANCIAL ENTITIES"],
+          [251, 267, "ORG"],
+          [272, 284, "ORG"],
+          [325, 332, "FINANCIAL ENTITIES"],
+          [392, 395, "PERCENTAGE"],
+          [410, 417, "DATE"]
+        ]
+      }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "The U.S. Department of the Treasury issued a new $30 billion 10-year Treasury bond, with a yield of 3.25%, aimed at funding the Biden administration’s infrastructure plan. The bond’s issuance was met with strong demand from international investors, particularly from Europe and Asia. Treasury Secretary Janet Yellen stated that the funds would be used to modernize U.S. highways, bridges, and energy systems over the next decade.\r",
+      {
+        "entities": [
+          [4, 35, "ORG"],
+          [49, 60, "MONEY"],
+          [100, 105, "PERCENTAGE"],
+          [128, 133, "PEOPLE"],
+          [267, 273, "CONTINENT"],
+          [278, 283, "CONTINENT"],
+          [303, 315, "PEOPLE"],
+          [365, 369, "COUNTRY"]
+        ]
+      }
+    ],
+    null,
+    [
+      "In a surprise move, the Bank of England (BoE) raised its key interest rate by 25 basis points to 5.0% on June 25, 2025, due to concerns over rising inflation in the UK. The decision came after the Consumer Price Index (CPI) showed a 4.2% year-over-year increase in May. UK inflation is expected to remain above target for the rest of 2025, leading analysts to speculate further rate hikes in the coming months.\r",
+      {
+        "entities": [
+          [24, 45, "ORG"],
+          [78, 80, "NATURAL NUMBERS"],
+          [97, 101, "PERCENTAGE"],
+          [105, 118, "DATE"],
+          [165, 168, "COUNTRY"],
+          [233, 237, "PERCENTAGE"],
+          [265, 269, "DATE"],
+          [270, 272, "COUNTRY"],
+          [334, 338, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Ethereum (ETH) has outperformed Bitcoin (BTC) in recent weeks, rising by 24% as the Ethereum blockchain undergoes significant upgrades aimed at improving scalability and reducing transaction costs. With Ethereum 2.0 set to launch in Q1 2026, experts believe the cryptocurrency could surpass Bitcoin in market capitalization by the end of 2026 if its network upgrades are successful. The ETH/USD pair reached $3,500 last week, up from $2,800 at the start of May.\r",
+      {
+        "entities": [
+          [0, 14, "FINANCIAL ENTITIES"],
+          [32, 45, "FINANCIAL ENTITIES"],
+          [73, 76, "PERCENTAGE"],
+          [84, 92, "FINANCIAL ENTITIES"],
+          [233, 240, "DATE"],
+          [262, 276, "FINANCIAL ENTITIES"],
+          [291, 298, "FINANCIAL ENTITIES"],
+          [338, 342, "DATE"],
+          [408, 414, "MONEY"],
+          [434, 440, "MONEY"],
+          [457, 460, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The European Union (EU) announced a €750 billion economic recovery package to help member states bounce back from the COVID-19 pandemic. The fund, called NextGenerationEU, will be distributed over the next five years, with the largest portion allocated to Italy (€200 billion) and Spain (€140 billion). The funds will focus on digitalization and green energy projects, with an emphasis on reducing the EU’s reliance on fossil fuels.\r",
+      {
+        "entities": [
+          [118, 126, "EVENT"],
+          [206, 216, "DATE"],
+          [256, 261, "COUNTRY"],
+          [263, 275, "MONEY"],
+          [281, 286, "COUNTRY"],
+          [288, 300, "MONEY"],
+          [402, 406, "COUNTRY"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Goldman Sachs (GS) has upgraded its 2025 forecast for the U.S. stock market, predicting that the S&P 500 will rise by 7% in the next 12 months. The firm’s analysts cited strong earnings growth in the technology sector, particularly for companies like Amazon (AMZN) and Microsoft (MSFT). Despite concerns about inflation, Goldman Sachs believes that consumer spending will remain robust, especially in the second half of 2025.\r",
+      {
+        "entities": [
+          [0, 18, "ORG"],
+          [36, 40, "DATE"],
+          [58, 62, "COUNTRY"],
+          [97, 104, "FINANCIAL ENTITIES"],
+          [118, 120, "PERCENTAGE"],
+          [133, 143, "DATE"],
+          [251, 264, "ORG"],
+          [269, 285, "ORG"],
+          [321, 334, "ORG"],
+          [420, 424, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The Indian government announced a new ₹1 trillion stimulus package aimed at boosting the manufacturing sector, particularly in the electronics and automotive industries. Prime Minister Narendra Modi stated that the government will focus on infrastructure projects, including the construction of new highways and factories in rural areas. The package is expected to create over 1 million jobs by 2027 and will be partially funded through bonds issued by the Reserve Bank of India.\r",
+      {
+        "entities": [
+          [4, 10, "COUNTRY"],
+          [38, 49, "MONEY"],
+          [185, 198, "PEOPLE"],
+          [377, 378, "NATURAL NUMBERS"],
+          [395, 399, "DATE"],
+          [457, 478, "ORG"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Facebook (Meta) has launched a new feature allowing businesses to accept cryptocurrency payments for services via Facebook Pay. The social media giant announced that it will support both Bitcoin (BTC) and Ethereum (ETH), marking its first significant step into the crypto space. Meta’s stock (META) rose by 3% following the announcement, with investors reacting positively to the potential for increased revenue streams.\r",
+      {
+        "entities": [
+          [0, 15, "ORG"],
+          [73, 87, "FINANCIAL ENTITIES"],
+          [114, 122, "ORG"],
+          [187, 200, "FINANCIAL ENTITIES"],
+          [205, 219, "FINANCIAL ENTITIES"],
+          [279, 285, "ORG"],
+          [307, 309, "ORG"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The International Monetary Fund (IMF) has raised its global growth forecast for 2025 to 4.2%, citing a strong recovery in emerging markets like India and China. However, the IMF warned that high debt levels in developed economies could lead to slower recovery in regions like Europe and the U.S. IMF Chief Kristalina Georgieva noted that inflation in the U.S. and Europe remains a significant risk to the global economy.\r",
+      {
+        "entities": [
+          [0, 37, "ORG"],
+          [80, 84, "DATE"],
+          [88, 92, "PERCENTAGE"],
+          [144, 149, "COUNTRY"],
+          [154, 160, "COUNTRY"],
+          [174, 177, "COUNTRY"],
+          [276, 282, "CONTINENT"],
+          [291, 295, "COUNTRY"],
+          [306, 326, "PEOPLE"],
+          [355, 359, "CONTINENT"],
+          [364, 370, "CONTINENT"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Tesla Inc. (TSLA) is facing increasing competition from Chinese electric vehicle (EV) manufacturers, with BYD and NIO reporting strong sales in Q1 2025. Tesla’s global market share in the EV sector dropped from 20% in 2024 to 16% in 2025, as more consumers in Europe and Asia opt for local brands. In response, Tesla announced plans to lower prices on its Model 3 and Model Y vehicles by 8% across several global markets.\r",
+      {
+        "entities": [
+          [0, 17, "ORG"],
+          [144, 152, "DATE"],
+          [153, 160, "ORG"],
+          [211, 214, "PERCENTAGE"],
+          [218, 222, "DATE"],
+          [226, 229, "PERCENTAGE"],
+          [233, 237, "DATE"],
+          [260, 266, "CONTINENT"],
+          [271, 275, "CONTINENT"],
+          [311, 316, "ORG"],
+          [356, 363, "PRODUCT"],
+          [368, 375, "PRODUCT"],
+          [388, 390, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The U.S. government plans to introduce a new set of green bonds, worth $15 billion, aimed at financing climate change mitigation projects. The bonds, which will be issued in late 2025, will focus on renewable energy infrastructure and carbon capture technologies. Treasury Secretary Janet Yellen confirmed that the bonds would be sold with a 2.5% yield and are expected to attract strong demand from institutional investors.\r",
+      {
+        "entities": [
+          [4, 8, "COUNTRY"],
+          [52, 63, "FINANCIAL ENTITIES"],
+          [71, 82, "MONEY"],
+          [179, 183, "DATE"],
+          [283, 295, "PEOPLE"],
+          [342, 346, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "In a move to boost trade relations, China has signed a bilateral trade agreement with the United Arab Emirates (UAE), valued at $20 billion. The deal, announced during the G20 summit in Dubai, will focus on energy cooperation, technology sharing, and infrastructure development. The agreement is expected to create thousands of jobs in both countries, especially in the renewable energy and tech sectors.\r",
+      {
+        "entities": [
+          [36, 41, "COUNTRY"],
+          [90, 116, "COUNTRY"],
+          [128, 140, "MONEY"],
+          [172, 182, "EVENT"],
+          [186, 191, "COUNTRY"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The World Bank announced a $500 million loan to Pakistan to help finance infrastructure projects and promote economic growth in the country. The loan is part of a larger $3 billion package aimed at improving roads, bridges, and energy systems. Pakistan’s Finance Minister, Ishaq Dar, stated that the loan would help the country meet its sustainable development goals and create over 200,000 jobs.\r",
+      {
+        "entities": [
+          [0, 14, "ORG"],
+          [27, 39, "ORG"],
+          [48, 56, "COUNTRY"],
+          [170, 180, "MONEY"],
+          [244, 254, "COUNTRY"],
+          [273, 282, "COUNTRY"],
+          [383, 390, "NATURAL NUMBERS"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Chevron Corporation (CVX) is planning to invest $15 billion in renewable energy projects over the next five years, marking a significant shift towards clean energy. The company aims to reduce its carbon footprint and increase its renewable energy capacity by 30% by 2030. Chevron’s stock rose by 2% following the announcement, reflecting investor confidence in its transition to cleaner energy sources.\r",
+      {
+        "entities": [
+          [0, 25, "ORG"],
+          [103, 113, "DATE"],
+          [259, 261, "PERCENTAGE"],
+          [266, 271, "DATE"],
+          [296, 298, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The Bank of Japan (BOJ) has decided to extend its ultra-loose monetary policy, keeping interest rates at -0.1% through 2025, in an effort to combat deflation. Despite concerns over rising inflation globally, the BOJ stated that Japan’s economic recovery remains fragile. The yen weakened slightly against the dollar following the announcement, dropping by 0.2% in afternoon trading.\r",
+      {
+        "entities": [
+          [0, 23, "ORG"],
+          [105, 110, "ORG"],
+          [119, 123, "DATE"],
+          [212, 215, "ORG"],
+          [228, 235, "COUNTRY"],
+          [356, 360, "PERCENTAGE"],
+          [364, 373, "TIME"]
+        ]
+      }
+    ],
+    null,
+    [
+      "In its latest earnings report, Apple Inc. (AAPL) surpassed expectations with a 20% increase in revenue, totaling $101.5 billion for Q4 2025. The company’s CEO, Tim Cook, announced that global sales of the iPhone 15 were a major contributor to the growth. Apple’s performance was particularly strong in the Asia-Pacific region, where sales grew by 25%. Following the report, the stock rose by 5% in after-hours trading, marking a new all-time high.\r",
+      {
+        "entities": [
+          [31, 41, "ORG"],
+          [79, 82, "PERCENTAGE"],
+          [113, 127, "MONEY"],
+          [132, 140, "DATE"],
+          [160, 168, "PEOPLE"],
+          [205, 214, "PRODUCT"],
+          [255, 262, "PRODUCT"],
+          [306, 318, "CONTINENT"],
+          [347, 350, "CONTINENT"],
+          [392, 394, "CONTINENT"],
+          [398, 409, "TIME"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The Federal Reserve raised interest rates by 50 basis points in its meeting on May 23, 2025, bringing the federal funds rate to 5.5%. Chair Jerome Powell stated that this decision was made in response to persistent inflationary pressures across the U.S. economy. Financial markets reacted with volatility, with the S&P 500 index dropping by 2% in the following days. Some analysts expect further rate hikes throughout the rest of 2025.\r",
+      {
+        "entities": [
+          [0, 19, "ORG"],
+          [45, 47, "NATURAL NUMBERS"],
+          [79, 91, "DATE"],
+          [128, 132, "PERCENTAGE"],
+          [140, 153, "PEOPLE"],
+          [249, 253, "COUNTRY"],
+          [315, 322, "FINANCIAL ENTITIES"],
+          [341, 343, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "In a major acquisition, Microsoft Corporation (MSFT) has agreed to purchase the cybersecurity firm CloudGuard for $4.7 billion. The deal is expected to close by Q1 2026 and will expand Microsoft’s security offerings, particularly in the cloud services market. This marks one of the largest technology acquisitions of the year, and analysts predict that Microsoft’s stock could rise 10% in the next six months as a result.\r",
+      {
+        "entities": [
+          [24, 45, "ORG"],
+          [99, 109, "ORG"],
+          [114, 127, "MONEY"],
+          [161, 168, "DATE"],
+          [185, 196, "ORG"],
+          [317, 325, "DATE"],
+          [353, 364, "ORG"],
+          [382, 385, "PERCENTAGE"],
+          [398, 408, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Goldman Sachs (GS) upgraded its forecast for the global economy in 2025, predicting a 3.7% growth rate due to stronger-than-expected recovery in Europe and Asia. The firm’s analysts also revised their forecast for the U.S. stock market, expecting the S&P 500 index to gain 8% over the next 12 months. Meanwhile, global commodity prices are expected to rise by 5%, driven by recovering demand in the oil and metals markets.\r",
+      {
+        "entities": [
+          [0, 18, "ORG"],
+          [67, 71, "DATE"],
+          [86, 90, "DATE"],
+          [145, 151, "CONTINENT"],
+          [156, 161, "CONTINENT"],
+          [218, 222, "CONTINENT"],
+          [251, 258, "FINANCIAL ENTITIES"],
+          [273, 275, "PERCENTAGE"],
+          [290, 300, "DATE"],
+          [360, 362, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The European Central Bank (ECB) held its annual policy meeting in Frankfurt on June 10, 2025, where it decided to keep interest rates unchanged at 4.25%. ECB President Christine Lagarde emphasized that the bank is monitoring inflation closely and may adjust rates if necessary. The decision came after inflation in the eurozone stabilized at 2.7% in May, slightly above the ECB’s target.\r",
+      {
+        "entities": [
+          [0, 31, "ORG"],
+          [66, 75, "COUNTRY"],
+          [79, 92, "COUNTRY"],
+          [147, 152, "PERCENTAGE"],
+          [154, 157, "ORG"],
+          [168, 185, "PEOPLE"],
+          [342, 346, "PERCENTAGE"],
+          [350, 353, "DATE"],
+          [374, 379, "ORG"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Tesla’s stock (TSLA) dropped by 7% following the announcement of a recall of over 100,000 vehicles in the United States. The recall, which affects the Model 3 and Model S cars, was due to a software bug that could affect the vehicle’s braking system. CEO Elon Musk responded to the news, stating that the issue would be addressed quickly and that customer safety remains a top priority for the company.\r",
+      {
+        "entities": [
+          [0, 7, "ORG"],
+          [32, 34, "ORG"],
+          [82, 89, "NATURAL NUMBERS"],
+          [106, 120, "COUNTRY"],
+          [151, 158, "PRODUCT"],
+          [163, 170, "PRODUCT"],
+          [255, 264, "PEOPLE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The Reserve Bank of India (RBI) raised the repo rate to 6.75% in its latest monetary policy review on July 7, 2025. This marks the fourth consecutive rate hike since January 2025, aimed at curbing inflation, which has been hovering around 7% in India. The decision led to a brief sell-off in Indian equities, with the NSE Nifty 50 index falling by 1.5%. The RBI indicated that it may pause rate hikes in the coming months if inflation shows signs of cooling.\r",
+      {
+        "entities": [
+          [0, 31, "ORG"],
+          [56, 61, "PERCENTAGE"],
+          [102, 115, "DATE"],
+          [166, 178, "DATE"],
+          [239, 241, "PERCENTAGE"],
+          [245, 251, "COUNTRY"],
+          [318, 327, "FINANCIAL ENTITIES"],
+          [328, 330, "NATURAL NUMBERS"],
+          [348, 352, "PERCENTAGE"],
+          [358, 361, "ORG"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Visa Inc. (V) and Mastercard Inc. (MA) announced a joint venture to launch a new digital payment platform aimed at the Latin American market. The platform will allow users to make cross-border transactions with no fees. The companies have invested a combined $600 million in the project, which is expected to launch in Brazil by Q3 2025. Both stocks saw a modest uptick following the announcement, with Visa rising by 2% and Mastercard by 1.8%.\r",
+      {
+        "entities": [
+          [0, 9, "ORG"],
+          [18, 33, "ORG"],
+          [259, 271, "MONEY"],
+          [319, 325, "MONEY"],
+          [329, 337, "DATE"],
+          [403, 407, "ORG"],
+          [418, 420, "PERCENTAGE"],
+          [425, 435, "ORG"],
+          [439, 443, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Netflix (NFLX) reported a 12% year-over-year growth in subscribers, adding 10 million new users globally in Q2 2025. The company’s strong performance in international markets, particularly in India and South America, was credited with driving the growth. CEO Reed Hastings mentioned that the company would focus on regional content production to further strengthen its position in these emerging markets.\r",
+      {
+        "entities": [
+          [0, 7, "ORG"],
+          [26, 29, "PERCENTAGE"],
+          [75, 77, "NATURAL NUMBERS"],
+          [108, 116, "DATE"],
+          [192, 197, "COUNTRY"],
+          [202, 215, "COUNTRY"],
+          [259, 272, "PEOPLE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The World Bank has granted $500 million in funding to South Africa to help the country transition to clean energy. The project, expected to be completed by 2028, will focus on building solar energy infrastructure and reducing the country’s reliance on coal. South African officials stated that the project would create over 50,000 jobs and reduce carbon emissions by 20% over the next decade.\r",
+      {
+        "entities": [
+          [0, 14, "ORG"],
+          [27, 39, "MONEY"],
+          [54, 66, "COUNTRY"],
+          [156, 160, "DATE"],
+          [258, 271, "COUNTRY"],
+          [324, 330, "COUNTRY"],
+          [367, 370, "PERCENTAGE"],
+          [376, 391, "TIME"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Amazon Web Services (AWS) continues to dominate the cloud computing market, with the company reporting $28.6 billion in Q1 2025 revenue from its cloud division, up 19% from the previous year. Amazon’s (AMZN) overall revenue for the quarter reached $140 billion, with AWS accounting for 20% of the company’s total earnings. The company also announced plans to expand its data center network in Canada by 2026.\r",
+      {
+        "entities": [
+          [0, 19, "ORG"],
+          [103, 116, "MONEY"],
+          [120, 127, "DATE"],
+          [164, 167, "PERCENTAGE"],
+          [192, 200, "PERCENTAGE"],
+          [248, 260, "MONEY"],
+          [267, 270, "ORG"],
+          [286, 289, "PERCENTAGE"],
+          [393, 399, "COUNTRY"],
+          [403, 407, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "In a rare move, the U.S. Treasury Department issued a new series of 30-year bonds worth $10 billion to fund infrastructure projects across the country. The bonds, which will be sold at a yield of 3.8%, are expected to generate significant demand from institutional investors. The bond issuance was part of a larger $50 billion package aimed at improving U.S. transportation and energy systems.\r",
+      {
+        "entities": [
+          [20, 24, "COUNTRY"],
+          [68, 75, "DATE"],
+          [76, 81, "FINANCIAL ENTITIES"],
+          [88, 99, "MONEY"],
+          [156, 161, "FINANCIAL ENTITIES"],
+          [196, 200, "PERCENTAGE"],
+          [280, 284, "FINANCIAL ENTITIES"],
+          [315, 326, "MONEY"],
+          [354, 358, "COUNTRY"]
+        ]
+      }
+    ],
+    null,
+    [
+      "China’s central bank, the People’s Bank of China (PBOC), has cut the benchmark lending rate by 25 basis points to 3.0%, in an attempt to stimulate the country’s slowing economy. The decision comes after China’s GDP growth for Q1 2025 was revised downward to 4.3%. Markets reacted positively, with the Shanghai Composite Index rising by 2% after the announcement.\r",
+      {
+        "entities": [
+          [0, 7, "COUNTRY"],
+          [26, 55, "ORG"],
+          [95, 97, "NATURAL NUMBERS"],
+          [114, 118, "NATURAL NUMBERS"],
+          [203, 210, "COUNTRY"],
+          [226, 233, "DATE"],
+          [258, 262, "PERCENTAGE"],
+          [336, 338, "PERCENTAGE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "Facebook (Meta) reported a 14% increase in revenue for Q1 2025, reaching $40 billion, with the majority of growth driven by its advertising business. The company’s daily active user count also reached a new high of 2.8 billion. Meta’s stock (META) surged 6% following the earnings report, and analysts are predicting that the company will maintain strong growth through the second half of 2025.\r",
+      {
+        "entities": [
+          [0, 15, "ORG"],
+          [27, 30, "PERCENTAGE"],
+          [55, 62, "PERCENTAGE"],
+          [73, 84, "MONEY"],
+          [215, 227, "NATURAL NUMBERS"],
+          [228, 234, "ORG"],
+          [255, 257, "PERCENTAGE"],
+          [389, 393, "DATE"]
+        ]
+      }
+    ],
+    null,
+    [
+      "The Bank of Japan (BOJ) announced it would continue its ultra-loose monetary policy despite rising inflation in the country. The BOJ’s decision to keep interest rates at -0.1% came after Japan’s inflation rate hit 1.9% in May 2025, slightly above the central bank’s target. The yen weakened by 0.5% against the dollar in the aftermath of the announcement\r",
+      {
+        "entities": [
+          [0, 23, "ORG"],
+          [129, 134, "ORG"],
+          [170, 175, "PERCENTAGE"],
+          [187, 194, "COUNTRY"],
+          [214, 218, "PERCENTAGE"],
+          [222, 230, "DATE"],
+          [294, 298, "PERCENTAGE"]
+        ]
+      }
+    ]
+  ]
+}
