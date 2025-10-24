@@ -1,0 +1,164 @@
+{
+  "classes": [
+    "TITLE",
+    "ORG",
+    "PERSON",
+    "DATE",
+    "MONEY",
+    "PERCENT",
+    "GPE",
+    "ACCOUNT",
+    "TICKER",
+    "PRODUCT",
+    "EVENT",
+    "EMAIL",
+    "SHARES/STOCKS"
+  ],
+  "annotations": [
+    [
+      "🧾 Sample 1 – Corporate Earnings Report\r",
+      { "entities": [[14, 39, "TITLE"]] }
+    ],
+    null,
+    [
+      "On March 20, 2025, AstraNova Holdings Ltd announced its quarterly earnings from its Mumbai headquarters. According to CEO Kavita Menon, the company recorded a 12.4% increase in revenue, bringing the total to $78.6 million for the first quarter. Net profit stood at $9.2 million, compared to $8.1 million in the same period last year. The strong performance was attributed to its financial technology division, AstraPay, which secured new contracts with Delta Bank and Union Finance Corp in Singapore.\r",
+      {
+        "entities": [
+          [3, 17, "DATE"],
+          [19, 41, "ORG"],
+          [84, 90, "GPE"],
+          [122, 134, "PERSON"],
+          [159, 164, "PERCENT"],
+          [208, 221, "MONEY"],
+          [265, 277, "MONEY"],
+          [291, 303, "MONEY"],
+          [410, 418, "PRODUCT"],
+          [453, 463, "ORG"],
+          [468, 486, "ORG"],
+          [490, 499, "GPE"]
+        ]
+      }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "🏦 Sample 2 – Investment Transaction\r",
+      { "entities": [[14, 36, "TITLE"]] }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "On July 5, 2025, investor Rahul Deshmukh transferred ₹1,200,000 from his savings account ACC-772301 at HDFC Bank to purchase 2,000 shares of BlueOcean Energy Ltd (ticker BOEN) at ₹600 per share. The transaction was executed through GrowInvest Securities, a brokerage based in Bengaluru. Later that week, BlueOcean’s share price rose by 6.8%, resulting in a notional gain of about ₹81,600 for Rahul. He mentioned that he plans to hold the stock until at least December 2025, anticipating a dividend announcement.\r",
+      {
+        "entities": [
+          [3, 15, "DATE"],
+          [26, 40, "PERSON"],
+          [53, 63, "MONEY"],
+          [89, 99, "ACCOUNT"],
+          [103, 112, "ORG"],
+          [125, 130, "SHARES/STOCKS"],
+          [141, 175, "TICKER"],
+          [179, 183, "MONEY"],
+          [232, 253, "ORG"],
+          [276, 286, "GPE"],
+          [304, 315, "ORG"],
+          [336, 340, "PERCENT"],
+          [380, 387, "MONEY"],
+          [392, 398, "PERSON"],
+          [459, 472, "DATE"]
+        ]
+      }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "💰 Sample 3 – Loan and Credit Report\r",
+      { "entities": [[14, 36, "TITLE"]] }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "Crestline Finance Pvt. Ltd. issued a business loan to SilverGrid Analytics on February 10, 2024, amounting to $250,000 at an annual interest rate of 7.5%. The agreement, signed by Managing Director Ananya Rao, states that the first EMI of $5,000 is due on March 15, 2024. During the audit conducted by M. Joseph & Co. on June 30, 2025, it was noted that SilverGrid had repaid $180,000 to date, leaving an outstanding balance of $70,000. The auditors recommended restructuring the repayment schedule to improve liquidity.\r",
+      {
+        "entities": [
+          [0, 27, "ORG"],
+          [54, 74, "ORG"],
+          [78, 95, "DATE"],
+          [110, 118, "MONEY"],
+          [149, 153, "PERCENT"],
+          [198, 208, "PERSON"],
+          [239, 245, "MONEY"],
+          [256, 271, "DATE"],
+          [302, 317, "ORG"],
+          [321, 334, "DATE"],
+          [354, 364, "ORG"],
+          [376, 384, "MONEY"],
+          [428, 436, "MONEY"]
+        ]
+      }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "📈 Sample 4 – Financial News Article\r",
+      { "entities": [[14, 36, "TITLE"]] }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "New York, April 18, 2025 — Shares of Vertex Biocare Inc. (NASDAQ: VBCI) climbed 9.3% in early trading after the company revealed it had secured a $50 million funding round from Everline Partners. The investment will support the expansion of its vaccine manufacturing plant in Boston, Massachusetts. In a press release, CFO Emily Chen said the funds will be allocated toward R&D and facility upgrades. Analysts at Morgan Finch Research upgraded the stock’s target price from $22 to $28 following the announcement.\r",
+      {
+        "entities": [
+          [0, 8, "GPE"],
+          [10, 24, "DATE"],
+          [37, 71, "TICKER"],
+          [80, 84, "PERCENT"],
+          [146, 157, "MONEY"],
+          [177, 195, "ORG"],
+          [276, 282, "GPE"],
+          [284, 298, "GPE"],
+          [323, 333, "PERSON"],
+          [413, 434, "ORG"],
+          [474, 477, "MONEY"],
+          [481, 484, "MONEY"]
+        ]
+      }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "🧮 Sample 5 – Financial Audit Narrative\r",
+      { "entities": [[14, 39, "TITLE"]] }
+    ],
+    ["\r", { "entities": [] }],
+    [
+      "During the annual financial audit of Riverstone Textiles Ltd conducted on August 12, 2025, auditors discovered discrepancies in the petty cash account managed by Accountant Deepak Sharma. An amount of ₹48,500 was unaccounted for between May and June 2025, allegedly due to delayed supplier reimbursements. The board requested an internal review by Omkar Consultants, who later confirmed the missing funds were reimbursed on September 3, 2025. The company’s total revenue for FY2025 was reported at ₹78.4 crore, reflecting a 5% year-over-year increase.",
+      {
+        "entities": [
+          [37, 60, "ORG"],
+          [74, 89, "DATE"],
+          [173, 187, "PERSON"],
+          [201, 208, "MONEY"],
+          [237, 240, "MONEY"],
+          [245, 254, "MONEY"],
+          [348, 365, "ORG"],
+          [424, 442, "DATE"],
+          [475, 481, "DATE"],
+          [498, 509, "MONEY"],
+          [524, 526, "PERCENT"]
+        ]
+      }
+    ],
+    [
+      "During the annual financial audit of Riverstone Textiles Ltd conducted on August 12, 2025, auditors discovered discrepancies in the petty cash account managed by Accountant Deepak Sharma. An amount of ₹48,500 was unaccounted for between May and June 2025, allegedly due to delayed supplier reimbursements. The board requested an internal review by Omkar Consultants, who later confirmed the missing funds were reimbursed on September 3, 2025. The company’s total revenue for FY2025 was reported at ₹78.4 crore, reflecting a 5% year-over-year increase.",
+      {
+        "entities": [
+          [37, 60, "ORG"],
+          [74, 89, "DATE"],
+          [173, 187, "PERSON"],
+          [201, 208, "MONEY"],
+          [237, 240, "MONEY"],
+          [245, 254, "MONEY"],
+          [348, 365, "ORG"],
+          [424, 442, "DATE"],
+          [475, 481, "DATE"],
+          [498, 509, "MONEY"],
+          [524, 526, "PERCENT"]
+        ]
+      }
+    ]
+  ]
+}
