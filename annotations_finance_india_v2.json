@@ -1,0 +1,681 @@
+{
+  "classes": [
+    "PERSON",
+    "ORGANISATION",
+    "DATE",
+    "LOCATION",
+    "MONEY",
+    "DESIGNATION"
+  ],
+  "annotations": [
+    [
+      "Company: AsterFin Capital Ltd.",
+      {
+        "entities": [
+          [
+            9,
+            30,
+            "ORGANISATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Financial Year: FY 2025-26",
+      {
+        "entities": [
+          [
+            16,
+            26,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Report Date: 05 April 2025",
+      {
+        "entities": [
+          [
+            13,
+            26,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Location: Mumbai, Maharashtra, India",
+      {
+        "entities": [
+          [
+            10,
+            36,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "AsterFin Capital Ltd. focuses on retail lending, SME credit, and wealth management across India.",
+      {
+        "entities": [
+          [
+            0,
+            21,
+            "ORGANISATION"
+          ],
+          [
+            90,
+            95,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "In Q4 FY 2024-25, the company opened branches in Kochi, Coimbatore, and Visakhapatnam.",
+      {
+        "entities": [
+          [
+            3,
+            16,
+            "DATE"
+          ],
+          [
+            49,
+            54,
+            "LOCATION"
+          ],
+          [
+            56,
+            66,
+            "LOCATION"
+          ],
+          [
+            72,
+            85,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Total Revenue: ₹1,248,300,000 (₹124.83 Cr)",
+      {
+        "entities": [
+          [
+            15,
+            29,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Interest Income: ₹820,000,000",
+      {
+        "entities": [
+          [
+            17,
+            29,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Fee & Commission: ₹220,500,000",
+      {
+        "entities": [
+          [
+            18,
+            30,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Wealth Management Revenue: ₹207,800,000",
+      {
+        "entities": [
+          [
+            27,
+            39,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Operating Expenses: ₹540,250,000",
+      {
+        "entities": [
+          [
+            20,
+            32,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Employee Benefits: ₹210,000,000",
+      {
+        "entities": [
+          [
+            19,
+            31,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Technology & Cloud: ₹78,400,000",
+      {
+        "entities": [
+          [
+            20,
+            31,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Marketing & Promotions: ₹36,750,000",
+      {
+        "entities": [
+          [
+            24,
+            35,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Compliance & Audit: ₹24,500,000",
+      {
+        "entities": [
+          [
+            20,
+            31,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "EBITDA: ₹708,050,000",
+      {
+        "entities": [
+          [
+            8,
+            20,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Tax Paid for AY 2025-26: ₹142,600,000",
+      {
+        "entities": [
+          [
+            13,
+            23,
+            "DATE"
+          ],
+          [
+            25,
+            37,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Net Profit After Tax (NPAT): ₹525,450,000",
+      {
+        "entities": [
+          [
+            29,
+            41,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Proposed Dividend (Final): ₹3 per share on 05 July 2025.",
+      {
+        "entities": [
+          [
+            27,
+            29,
+            "MONEY"
+          ],
+          [
+            43,
+            55,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Total Assets: ₹6,750,000,000 as on 31 March 2025",
+      {
+        "entities": [
+          [
+            14,
+            28,
+            "MONEY"
+          ],
+          [
+            35,
+            48,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Gross Loans & Advances: ₹4,120,000,000",
+      {
+        "entities": [
+          [
+            24,
+            38,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Customer Deposits: ₹1,380,000,000",
+      {
+        "entities": [
+          [
+            19,
+            33,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Total Liabilities: ₹2,910,000,000",
+      {
+        "entities": [
+          [
+            19,
+            33,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Key Partners: ICICI Bank, Paytm Payments Bank, Razorpay, and AWS India.",
+      {
+        "entities": [
+          [
+            14,
+            24,
+            "ORGANISATION"
+          ],
+          [
+            26,
+            45,
+            "ORGANISATION"
+          ],
+          [
+            47,
+            55,
+            "ORGANISATION"
+          ],
+          [
+            61,
+            70,
+            "ORGANISATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Cloud services are hosted on Amazon Web Services (Mumbai Region).",
+      {
+        "entities": [
+          [
+            29,
+            48,
+            "ORGANISATION"
+          ],
+          [
+            50,
+            63,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "AsterFin signed a co-lending MoU with HDFC Bank on 12 February 2025.",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "ORGANISATION"
+          ],
+          [
+            38,
+            47,
+            "ORGANISATION"
+          ],
+          [
+            51,
+            67,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "AsterFin partnered with Microsoft Azure for analytics on 23 January 2025.",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "ORGANISATION"
+          ],
+          [
+            24,
+            39,
+            "ORGANISATION"
+          ],
+          [
+            57,
+            72,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "AsterFin collaborated with Google Cloud India to build a data lake in Hyderabad.",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "ORGANISATION"
+          ],
+          [
+            27,
+            45,
+            "ORGANISATION"
+          ],
+          [
+            70,
+            79,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "International expansion planned for Singapore and Dubai in FY 2026-27.",
+      {
+        "entities": [
+          [
+            36,
+            45,
+            "LOCATION"
+          ],
+          [
+            50,
+            55,
+            "LOCATION"
+          ],
+          [
+            59,
+            69,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Representative office to be set up in London by December 2026.",
+      {
+        "entities": [
+          [
+            38,
+            44,
+            "LOCATION"
+          ],
+          [
+            48,
+            61,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Projected consolidated revenue for FY 2026-27: ₹1,550,000,000.",
+      {
+        "entities": [
+          [
+            35,
+            45,
+            "DATE"
+          ],
+          [
+            47,
+            61,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Capital expenditure (CAPEX) for data centers in 2025: ₹95,000,000.",
+      {
+        "entities": [
+          [
+            48,
+            52,
+            "DATE"
+          ],
+          [
+            54,
+            65,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "Report approved by: Ms. Kavya Iyer, CFO – AsterFin Capital Ltd.",
+      {
+        "entities": [
+          [
+            20,
+            34,
+            "PERSON"
+          ],
+          [
+            36,
+            39,
+            "DESIGNATION"
+          ],
+          [
+            42,
+            63,
+            "ORGANISATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Managing Director: Mr. Rohan Mehta",
+      {
+        "entities": [
+          [
+            0,
+            17,
+            "DESIGNATION"
+          ],
+          [
+            19,
+            34,
+            "PERSON"
+          ]
+        ]
+      }
+    ],
+    [
+      "Head of Risk: Priya Natarajan",
+      {
+        "entities": [
+          [
+            0,
+            12,
+            "DESIGNATION"
+          ],
+          [
+            14,
+            29,
+            "PERSON"
+          ]
+        ]
+      }
+    ],
+    [
+      "Chief Technology Officer: Arjun Rao",
+      {
+        "entities": [
+          [
+            0,
+            24,
+            "DESIGNATION"
+          ],
+          [
+            26,
+            35,
+            "PERSON"
+          ]
+        ]
+      }
+    ],
+    [
+      "External Auditor: Menon & Balakrishnan LLP, Kochi.",
+      {
+        "entities": [
+          [
+            18,
+            42,
+            "ORGANISATION"
+          ],
+          [
+            44,
+            49,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Signed on 06 April 2025 at Mumbai.",
+      {
+        "entities": [
+          [
+            10,
+            23,
+            "DATE"
+          ],
+          [
+            27,
+            33,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "Board meeting scheduled on 30 June 2025 at Chennai.",
+      {
+        "entities": [
+          [
+            27,
+            39,
+            "DATE"
+          ],
+          [
+            43,
+            50,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "AGM to be held on 19 September 2025 in Bengaluru.",
+      {
+        "entities": [
+          [
+            18,
+            35,
+            "DATE"
+          ],
+          [
+            39,
+            48,
+            "LOCATION"
+          ]
+        ]
+      }
+    ],
+    [
+      "ESOP Pool expansion approved: ₹12,000,000.",
+      {
+        "entities": [
+          [
+            30,
+            41,
+            "MONEY"
+          ]
+        ]
+      }
+    ],
+    [
+      "CSR spending in FY 2024-25: ₹7,500,000 towards education initiatives in Pune.",
+      {
+        "entities": [
+          [
+            16,
+            26,
+            "DATE"
+          ],
+          [
+            28,
+            38,
+            "MONEY"
+          ],
+          [
+            72,
+            76,
+            "LOCATION"
+          ]
+        ]
+      }
+    ]
+  ]
+}
