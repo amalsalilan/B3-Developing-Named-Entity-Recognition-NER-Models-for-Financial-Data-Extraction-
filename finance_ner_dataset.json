@@ -1,0 +1,257 @@
+[
+  {
+    "text": "Goldman Sachs reported net income of $2.5 billion for Q3 2025.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "label": "ORG"
+      },
+      {
+        "start": 37,
+        "end": 49,
+        "label": "MONEY"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "On February 14, 2024, Apple Inc. announced a 5% increase in quarterly revenue.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "label": "ORG"
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "label": "PERCENT"
+      }
+    ]
+  },
+  {
+    "text": "The Federal Reserve raised interest rates by 0.25% on March 22, 2023.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 19,
+        "label": "ORG"
+      },
+      {
+        "start": 45,
+        "end": 50,
+        "label": "PERCENT"
+      },
+      {
+        "start": 54,
+        "end": 68,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Amazon's stock ticker AMZN rose by 3.4% after the earnings call on July 30, 2025.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "label": "ORG"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "label": "TICKER"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "label": "PERCENT"
+      },
+      {
+        "start": 67,
+        "end": 80,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Tesla agreed to acquire SolarCity for $2.6 billion in 2016.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "ORG"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "label": "ORG"
+      },
+      {
+        "start": 38,
+        "end": 50,
+        "label": "MONEY"
+      },
+      {
+        "start": 54,
+        "end": 58,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Morgan Stanley announced a dividend of $0.80 per share payable on December 1, 2025.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "label": "ORG"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "label": "MONEY"
+      },
+      {
+        "start": 66,
+        "end": 82,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "The merger between Barclays and Lloyds is expected to close by Q1 2026 in London.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "label": "ORG"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "ORG"
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "label": "DATE"
+      },
+      {
+        "start": 74,
+        "end": 80,
+        "label": "GPE"
+      }
+    ]
+  },
+  {
+    "text": "Visa reported transaction volume growth of 12% year-over-year in fiscal 2024.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "label": "ORG"
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "label": "PERCENT"
+      },
+      {
+        "start": 65,
+        "end": 76,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "JP Morgan Chase hired Sarah Lee as Head of Wealth Management on 01/10/2025.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "label": "ORG"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "label": "PERSON"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "The company raised $150 million in Series B funding from Sequoia Capital.",
+    "entities": [
+      {
+        "start": 57,
+        "end": 72,
+        "label": "ORG"
+      },
+      {
+        "start": 19,
+        "end": 31,
+        "label": "MONEY"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "label": "FUNDING"
+      }
+    ]
+  },
+  {
+    "text": "USD/INR hit 83.45 on October 10, 2025 amid market volatility.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "label": "CURRENCY"
+      },
+      {
+        "start": 12,
+        "end": 17,
+        "label": "MONEY"
+      },
+      {
+        "start": 21,
+        "end": 37,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "Alphabet reported revenues of $65.1 billion for the quarter ending September 30, 2025.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "label": "ORG"
+      },
+      {
+        "start": 30,
+        "end": 43,
+        "label": "MONEY"
+      },
+      {
+        "start": 67,
+        "end": 85,
+        "label": "DATE"
+      }
+    ]
+  }
+]
