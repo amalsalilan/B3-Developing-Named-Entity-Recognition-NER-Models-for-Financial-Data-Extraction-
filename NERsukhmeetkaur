@@ -1,0 +1,221 @@
+##  What is NER (Named Entity Recognition)?
+
+**Named Entity Recognition (NER)** is a core task in **Natural Language Processing (NLP)** that focuses on **identifying and classifying key information (entities)** in text into predefined categories.
+
+In simple words — it helps the computer understand *who, what, where, and when* from a piece of text.
+
+---
+
+##  Example
+
+**Input text:**
+
+> “Apple Inc. invested $1 billion in India in 2024.”
+
+**NER Output:**
+
+| Entity     | Type                      |
+| ---------- | ------------------------- |
+| Apple Inc. | ORG (Organization)        |
+| $1 billion | MONEY                     |
+| India      | GPE (Geopolitical Entity) |
+| 2024       | DATE                      |
+
+So, NER transforms raw text into **structured information**.
+
+---
+
+##  Purpose of NER
+
+The goal of NER is to automatically extract meaningful information that can be used in:
+
+* **Information extraction** (from news, research papers, financial reports, etc.)
+* **Question answering systems**
+* **Search engines**
+* **Chatbots**
+* **Content categorization**
+* **Financial or medical document analysis**
+
+---
+
+##  Common Entity Categories
+
+These categories vary depending on the dataset and domain:
+
+| Category | Description            | Example                  |
+| -------- | ---------------------- | ------------------------ |
+| PERSON   | People’s names         | Elon Musk                |
+| ORG      | Organization           | Google, UN               |
+| GPE      | Country, city, state   | India, New York          |
+| LOC      | Non-political location | Himalayas, Pacific Ocean |
+| DATE     | Dates and times        | June 5, 2024             |
+| MONEY    | Monetary values        | $5 million               |
+| PERCENT  | Percentages            | 7.5%                     |
+| PRODUCT  | Product names          | iPhone 15                |
+| EVENT    | Events                 | World War II             |
+| LAW      | Legal documents        | GDPR, Article 370        |
+| FUNDING  | (Finance) Funding type | Series A, Seed round     |
+
+---
+
+##  How NER Works
+
+NER systems generally follow these **three main stages**:
+
+### 1. **Tokenization**
+
+Splitting the text into smaller units (words or subwords).
+
+> Example: "Apple Inc. invested $1 billion" → ["Apple", "Inc.", "invested", "$1", "billion"]
+
+### 2. **Part-of-Speech (POS) Tagging**
+
+Identifies the grammatical role of each token (noun, verb, etc.) to help context understanding.
+
+### 3. **Entity Classification**
+
+Each token or sequence of tokens is classified into entity types using statistical or deep learning models.
+
+---
+
+##  Types of NER Approaches
+
+### 1. **Rule-based NER**
+
+* Uses manually defined rules (patterns or regular expressions).
+* Example: detect emails using pattern `\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b`
+* ✅ Easy to build
+* ❌ Not scalable or adaptable to complex sentences
+
+---
+
+### 2. **Statistical / Machine Learning-based NER**
+
+* Uses algorithms like **Hidden Markov Models (HMMs)**, **Conditional Random Fields (CRFs)**, or **SVMs**.
+* Needs **manually labeled data**.
+* ✅ More flexible than rule-based
+* ❌ Still struggles with unseen entities or context variations
+
+---
+
+### 3. **Deep Learning-based NER (Modern Approach)**
+
+* Uses **Neural Networks**, often **BiLSTM + CRF** or **Transformer-based models** (like BERT, RoBERTa, spaCy, or Hugging Face models).
+* Learns **contextual embeddings** (understands meaning from context).
+* ✅ High accuracy and generalization
+* ❌ Needs large datasets and computational power
+
+---
+
+##  Architecture of a Typical Deep Learning NER Model
+
+```
+Input Text → Tokenization → Embedding Layer → BiLSTM / Transformer → CRF Layer → Entity Labels
+```
+
+### Example using BERT
+
+BERT assigns a **contextual vector** to each word.
+Then, the model predicts entity tags like:
+
+```
+Apple  → ORG
+Inc.   → ORG
+invested → O
+$1 → MONEY
+billion → MONEY
+```
+
+---
+
+## ⚙️ Process of Training an NER Model
+
+1. **Collect Data** — Gather domain-specific text (like financial reports or news articles).
+2. **Annotate Entities** — Mark entity spans manually or using annotation tools (Prodigy, Label Studio, Doccano).
+3. **Preprocess Data** — Clean text, remove noise, and format as JSON or CoNLL.
+4. **Model Selection** — Choose architecture (spaCy, Hugging Face Transformers, etc.).
+5. **Training** — Train using labeled dataset until convergence.
+6. **Evaluation** — Use metrics like **Precision**, **Recall**, and **F1-Score**.
+7. **Deployment** — Integrate into applications for real-time entity extraction.
+
+---
+
+##  Evaluation Metrics
+
+| Metric    | Formula                                         | Meaning                                   |
+| --------- | ----------------------------------------------- | ----------------------------------------- |
+| Precision | TP / (TP + FP)                                  | % of predicted entities that were correct |
+| Recall    | TP / (TP + FN)                                  | % of true entities that were found        |
+| F1 Score  | 2 × (Precision × Recall) / (Precision + Recall) | Harmonic mean of precision and recall     |
+
+---
+
+##  Applications of NER
+
+| Domain     | Use Case                                                           |
+| ---------- | ------------------------------------------------------------------ |
+| Finance    | Extracting company names, money, stock tickers, dates from reports |
+| Healthcare | Extracting disease names, medicines, symptoms                      |
+| Legal      | Extracting case numbers, court names, laws                         |
+| E-commerce | Extracting brand, product, price, and category                     |
+| Research   | Identifying authors, affiliations, and references                  |
+
+---
+
+##  Tools and Libraries for NER
+
+1. **spaCy** – Easy and fast; supports custom NER models.
+2. **Hugging Face Transformers** – Fine-tune BERT, RoBERTa, etc.
+3. **Flair** – Contextual string embeddings.
+4. **NLTK** – For simple rule-based NER.
+5. **Stanford CoreNLP** – Classical Java-based NLP toolkit.
+
+---
+
+##  Example: Using spaCy for NER
+
+```python
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+text = "Microsoft invested $5 million in OpenAI on June 12, 2025."
+
+doc = nlp(text)
+for ent in doc.ents:
+    print(ent.text, ent.label_)
+```
+
+**Output:**
+
+```
+Microsoft ORG
+$5 million MONEY
+OpenAI ORG
+June 12, 2025 DATE
+```
+
+---
+
+##  Future of NER
+
+* **Zero-shot NER**: Identifies unseen entities without retraining.
+* **Domain-specific models** (Finance, Legal, Healthcare).
+* **Multilingual and cross-lingual NER** for global text analysis.
+* **Integration with LLMs (like GPT-based models)** to enhance reasoning and context understanding.
+
+---
+
+##  Summary
+
+| Aspect             | Description                                       |
+| ------------------ | ------------------------------------------------- |
+| **Definition**     | Identifies and classifies key information in text |
+| **Main Tasks**     | Detect entity boundaries and assign labels        |
+| **Techniques**     | Rule-based, ML-based, Deep Learning-based         |
+| **Popular Models** | BERT, spaCy, Flair, RoBERTa                       |
+| **Applications**   | Finance, healthcare, law, research, and more      |
+| **Goal**           | Convert unstructured text → structured data       |
+
+---
+
+
