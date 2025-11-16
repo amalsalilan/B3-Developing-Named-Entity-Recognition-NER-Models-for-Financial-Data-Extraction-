@@ -132,16 +132,15 @@ These routes are accessible without authentication:
 
 ## 🛠️ Tech Stack & Versions
 
-| **Technology**       | Version          |
-| **React**            | 18.2+            |
-| **Vite**             | 4.4+             |
-| **Tailwind CSS**     | 3.4+             |
-| **Clerk React**      | 5.55+            |
-| **Framer Motion**    | 10.18+           |
-| **Chart.js**         | 4.4+             |
-| **React ChartJS 2**  | 5.2+             |
-| **React Router DOM** | 6.17+            |
-| **Node.js**          | 20.19+ or 22.12+ |
+- **React**            - 18.2+            
+- **Vite**             - 4.4+             
+- **Tailwind CSS**     - 3.4+             
+- **Clerk React**      - 5.55+            
+- **Framer Motion**    - 10.18+           
+- **Chart.js**         - 4.4+             
+- **React ChartJS 2**  - 5.2+             
+- **React Router DOM** - 6.17+            
+- **Node.js**          - 20.19+ or 22.12+ 
 
 ## 📦 Key Dependencies
 
