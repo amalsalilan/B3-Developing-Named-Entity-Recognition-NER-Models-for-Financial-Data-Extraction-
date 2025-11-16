@@ -130,16 +130,18 @@ These routes are accessible without authentication:
 3. After successful authentication, user can access protected routes
 4. User profile accessible via UserButton in navbar
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Versions
 
-- **React 18** - UI library
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Clerk** - Authentication service
-- **Framer Motion** - Animation library
-- **Chart.js** - Data visualization
-- **React Router** - Client-side routing
-- **Lucide React** - Icon library
+| **Technology**       | Version          |
+| **React**            | 18.2+            |
+| **Vite**             | 4.4+             |
+| **Tailwind CSS**     | 3.4+             |
+| **Clerk React**      | 5.55+            |
+| **Framer Motion**    | 10.18+           |
+| **Chart.js**         | 4.4+             |
+| **React ChartJS 2**  | 5.2+             |
+| **React Router DOM** | 6.17+            |
+| **Node.js**          | 20.19+ or 22.12+ |
 
 ## 📦 Key Dependencies
 
