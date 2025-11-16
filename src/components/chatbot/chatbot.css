@@ -1,0 +1,102 @@
+/* Chat window */
+#chat-widget {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  width: 380px;
+  max-width: 90%;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.18);
+  overflow: hidden;
+  z-index: 9999;
+}
+
+/* Header */
+#chat-header {
+  padding: 14px;
+  font-weight: 600;
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Messages container */
+#chat-messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  /* CRITICAL FIX */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Message bubble */
+.chat-message {
+  max-width: 85%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.35;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.user-msg {
+  align-self: flex-end;
+  background: #dbeafe;
+}
+
+.bot-msg {
+  align-self: flex-start;
+  background: #f3f4f6;
+}
+
+/* Input area */
+#chat-input-area {
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  border-top: 1px solid #e2e2e2;
+  background: #fff;
+}
+
+/* Input box expands like ChatGPT */
+#chat-input-area textarea {
+  flex: 1;
+  resize: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  max-height: 120px;
+
+  /* text wrap safety */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Send button — FIXED SIZE */
+#chat-input-area button {
+  padding: 0 16px;        /* horizontal padding only */
+  height: 42px;           /* FIXED HEIGHT — prevents stretching */
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  flex-shrink: 0;         /* prevent the button from scaling */
+  align-self: flex-end;   /* attach to bottom even if textarea grows */
+}
+
